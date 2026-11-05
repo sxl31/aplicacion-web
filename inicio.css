@@ -1,0 +1,151 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: #f4f7f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.counterBox {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3498db;
+    margin: 10px 0;
+}
+
+.contadorAlto {
+    color: #e74c3c;
+}
+
+.mensajeAlto {
+    display: none;
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.btnClick {
+    background-color: #2ecc71;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btnClick:hover {
+    background-color: #27ae60;
+}
+
+.btnReset {
+    background-color: #e74c3c;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.btnReset:hover {
+    background-color: #c0392b;
+}
+
+.tableContainer {
+    width: 100%;
+    max-height: 220px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.tableHeader {
+    display: flex;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.tableBody {
+    max-height: 170px;
+    overflow-y: auto;
+}
+
+.tr {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+.trEven {
+    background-color: #fafafa;
+}
+
+.th {
+    color: #7f8c8d;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.td {
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cellNumero {
+    flex: 1;
+}
+
+.cellHora {
+    flex: 1.5;
+}
+
+.vacio {
+    text-align: center;
+    color: #888;
+    padding: 15px;
+}

@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Likes</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+
+    <div class="body">
+        <div class="container">
+
+            <h1>Interactividad con el DOM</h1>
+
+            <p class="description">
+                Haz clic en el botón para incrementar el contador y registrar
+                la hora exacta del evento en la tabla.
+            </p>
+
+            <div id="contador" class="counterBox">0</div>
+
+            <p id="mensaje" class="mensajeAlto">
+                ¡Has superado los 10 likes!
+            </p>
+
+            <button class="btnClick" id="btnIncrementar">
+                ¡Haz Clic Aquí!
+            </button>
+
+            <button class="btnReset" id="btnReiniciar">
+                Reiniciar a cero
+            </button>
+
+            <div class="tableContainer">
+
+                <div class="tableHeader">
+                    <div class="th cellNumero">No Clic</div>
+                    <div class="th cellHora">Hora</div>
+                </div>
+
+                <div id="tablaRegistros" class="tableBody">
+                    <p class="vacio">Todavía no hay registros</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="inicio.js"></script>
+</body>
+</html>
